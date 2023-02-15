@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.navLinks {
+		@apply text-white px-2 cursor-pointer hover:text-gray-300 transition-colors duration-300 ease-in-out;
+	}
+}
+
+html {
+	overflow-x: hidden;
+}
