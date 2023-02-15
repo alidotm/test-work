@@ -7,12 +7,12 @@ import iphoneRight from "/iphoneRight.png";
 
 const Landing: FC = () => {
 	return (
-		<div className="text-white  pt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 min-h-screen">
-			<div className="mt-36">
-				<h1 className="text-5xl md:text-6xl font-semibold">
+		<div className="text-white z-20 pt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 min-h-screen">
+			<div className="mb-28 sm:mt-36 flex flex-col justify-center sm:justify-start">
+				<h1 className="text-3xl sm:5xl md:text-6xl font-semibold flex flex-wrap">
 					We Create Applications With Excellent Technology.
 				</h1>
-				<p className="mt-6 max-w-xl">
+				<p className="mt-6 max-w-xl text-sm sm:text-lg">
 					It is a long established fact that a reader will be
 					distracted by the readable content of a page when looking at
 					its layout. The point of using Lorem Ipsum is that it has a
@@ -20,13 +20,13 @@ const Landing: FC = () => {
 					using 'Content here, content here', making it look like
 					readable English.
 				</p>
-				<div className="flex items-center space-x-8 mt-8">
-					<button className="bg-white shadow-xl hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black px-7 py-5 flex items-center space-x-1 rounded-2xl font-medium">
+				<div className="flex items-center space-x-4 sm:space-x-8 mt-8">
+					<button className="bg-white shadow-xl hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black px-5 sm:px-7 sm:py-5 sm:text-base text-sm py-4 flex items-center space-x-1 rounded-2xl font-medium">
 						<span>Download Now</span>
 						<img src={downloadIcon} alt="" className="w-4 h-4" />
 					</button>
 
-					<button className="flex text-white hover:text-gray-300 ease-in-out duration-300 transition-colors items-center space-x-1">
+					<button className="flex text-white sm:text-base hover:text-gray-300 text-sm ease-in-out duration-300 transition-colors items-center space-x-1">
 						<span>Explore More</span>
 						<img
 							src={rightArrowIcon}
