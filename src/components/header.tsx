@@ -1,9 +1,11 @@
 import { FC } from "react";
 import logoSvg from "/logo.svg";
 
+//TODO:highlight what area we are in
+
 const Header: FC = () => {
 	return (
-		<header className="fixed w-full max-w-screen-2xl px-4 sm:px-6 top-0 left-0 right-0 mx-auto h-20 flex items-center justify-between">
+		<header className="fixed w-full z-50 max-w-screen-2xl px-4 sm:px-6 top-0 left-0 right-0 mx-auto h-20 flex items-center justify-between">
 			<a
 				href="/"
 				className="flex items-center space-x-1 text-xl font-bold"
