@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Backgroud from "./components/bg";
+import Contact from "./components/contactUs";
 import Feedback from "./components/feedback";
 import Header from "./components/header";
 import Landing from "./components/landing";
@@ -46,6 +47,9 @@ function App() {
 
 				{/* Feedback */}
 				<Feedback />
+
+				{/* Contact us */}
+				<Contact />
 			</main>
 		</div>
 	);
