@@ -2,7 +2,10 @@ import { FC } from "react";
 
 const Services: FC = () => {
 	return (
-		<div className="my-36 max-w-screen-2xl px-4 sm:px-6 mx-auto flex justify-center items-center flex-col">
+		<div
+			id="services"
+			className="my-36 max-w-screen-2xl px-4 sm:px-6 mx-auto flex justify-center items-center flex-col"
+		>
 			<h2 className="font-medium text-3xl sm:text-5xl text-center max-w-screen-md">
 				We provide various kind of service for you
 			</h2>

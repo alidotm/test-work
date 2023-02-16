@@ -48,10 +48,10 @@ const Header: FC = () => {
 					<li
 						className={classNames(
 							scrolled ? "text-black" : "text-white",
-							"navLinks border-b-4 border-schema-darkBlue"
+							"navLinks"
 						)}
 					>
-						Home
+						<a href="#landing">Home</a>
 					</li>
 					<li
 						className={classNames(
@@ -59,7 +59,7 @@ const Header: FC = () => {
 							"navLinks"
 						)}
 					>
-						Services
+						<a href="#services">Services</a>
 					</li>
 					<li
 						className={classNames(
@@ -67,7 +67,7 @@ const Header: FC = () => {
 							"navLinks"
 						)}
 					>
-						Why Us
+						<a href="#whyus">Why Us</a>
 					</li>
 					<li
 						className={classNames(
@@ -75,7 +75,7 @@ const Header: FC = () => {
 							"navLinks"
 						)}
 					>
-						Our Goals
+						<a href="#goals">Our Goals</a>
 					</li>
 					<li
 						className={classNames(
@@ -83,7 +83,7 @@ const Header: FC = () => {
 							"navLinks"
 						)}
 					>
-						Our Portfolio
+						<a href="#portfolio">Our Portfolio</a>
 					</li>
 					<li
 						className={classNames(
@@ -91,7 +91,7 @@ const Header: FC = () => {
 							"navLinks"
 						)}
 					>
-						Our Client
+						<a href="#feedback">Our Client</a>
 					</li>
 					<li
 						className={classNames(
@@ -101,7 +101,7 @@ const Header: FC = () => {
 							"rounded-full px-5 py-2 duration-300 ease-in-out cursor-pointer"
 						)}
 					>
-						Contact Us
+						<a href="#contact">Contact Us</a>
 					</li>
 				</ul>
 			</header>

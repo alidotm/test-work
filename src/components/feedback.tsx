@@ -2,7 +2,10 @@ import { FC } from "react";
 
 const Feedback: FC = () => {
 	return (
-		<div className="my-36 max-w-screen-xl px-4 sm:px-6 mx-auto flex justify-center items-start flex-col">
+		<div
+			id="feedback"
+			className="my-36 max-w-screen-xl px-4 sm:px-6 mx-auto flex justify-center items-start flex-col"
+		>
 			<div className="flex justify-between flex-col md:flex-row w-full">
 				<div>
 					<h2 className="font-medium capitalize text-3xl sm:text-5xl text-left max-w-screen-md">

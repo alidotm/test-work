@@ -2,7 +2,10 @@ import { FC } from "react";
 
 const Portfolio: FC = () => {
 	return (
-		<div className="my-36 px-4 sm:px-6 flex justify-center items-center flex-col">
+		<div
+			id="portfolio"
+			className="my-36 px-4 sm:px-6 flex justify-center items-center flex-col"
+		>
 			<div className="max-w-screen-2xl mx-auto">
 				<h2 className="font-medium text-3xl capitalize sm:text-5xl text-center max-w-screen-md">
 					our portfolio

@@ -2,7 +2,10 @@ import { FC } from "react";
 
 const OurGoals: FC = () => {
 	return (
-		<div className="my-36 max-w-screen-2xl px-4 sm:px-6  mx-auto flex justify-center items-center flex-col">
+		<div
+			id="goals"
+			className="my-36 max-w-screen-2xl px-4 sm:px-6  mx-auto flex justify-center items-center flex-col"
+		>
 			<h2 className="font-medium text-3xl capitalize leading-snug sm:leading-snug sm:text-5xl text-center max-w-screen-md">
 				we completed 1200+ projects yearly successfully & counting
 			</h2>

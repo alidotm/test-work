@@ -2,7 +2,10 @@ import { FC } from "react";
 
 const WhyUs: FC = () => {
 	return (
-		<div className="my-36 flex justify-center w-full items-center flex-col">
+		<div
+			id="whyus"
+			className="my-36 flex justify-center w-full items-center flex-col"
+		>
 			<div className="max-w-screen-2xl px-4 sm:px-6 mx-auto">
 				{" "}
 				<h2 className="font-medium text-3xl sm:text-5xl text-center max-w-screen-md">
