@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Landing from "./components/landing";
 import Loading from "./components/loading";
 import OurGoals from "./components/ourGoals";
+import Portfolio from "./components/portfolio";
 import Services from "./components/services";
 import WhyUs from "./components/whyUs";
 
@@ -38,6 +39,9 @@ function App() {
 
 				{/* Our goals */}
 				<OurGoals />
+
+				{/* Portolio */}
+				<Portfolio />
 			</main>
 		</div>
 	);
