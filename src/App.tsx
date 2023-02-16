@@ -3,6 +3,7 @@ import Backgroud from "./components/bg";
 import Header from "./components/header";
 import Landing from "./components/landing";
 import Loading from "./components/loading";
+import OurGoals from "./components/ourGoals";
 import Services from "./components/services";
 import WhyUs from "./components/whyUs";
 
@@ -34,6 +35,9 @@ function App() {
 
 				{/* Why us */}
 				<WhyUs />
+
+				{/* Our goals */}
+				<OurGoals />
 			</main>
 		</div>
 	);
