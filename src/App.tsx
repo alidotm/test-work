@@ -2,6 +2,7 @@ import { useState } from "react";
 import Backgroud from "./components/bg";
 import Contact from "./components/contactUs";
 import Feedback from "./components/feedback";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Landing from "./components/landing";
 import Loading from "./components/loading";
@@ -51,6 +52,9 @@ function App() {
 				{/* Contact us */}
 				<Contact />
 			</main>
+
+			{/* Footer */}
+			<Footer />
 		</div>
 	);
 }

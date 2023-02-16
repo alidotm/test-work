@@ -6,6 +6,10 @@
 	.navLinks {
 		@apply text-white px-2 cursor-pointer hover:text-gray-300 transition-colors duration-300 ease-in-out;
 	}
+
+	.footerLink {
+		@apply text-black/50;
+	}
 }
 
 html {
