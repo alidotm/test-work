@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Backgroud from "./components/bg";
+import Feedback from "./components/feedback";
 import Header from "./components/header";
 import Landing from "./components/landing";
 import Loading from "./components/loading";
@@ -42,6 +43,9 @@ function App() {
 
 				{/* Portolio */}
 				<Portfolio />
+
+				{/* Feedback */}
+				<Feedback />
 			</main>
 		</div>
 	);
