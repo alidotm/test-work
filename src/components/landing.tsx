@@ -7,7 +7,7 @@ import iphoneRight from "/iphoneRight.png";
 
 const Landing: FC = () => {
 	return (
-		<div className="text-white z-20 pt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 min-h-screen">
+		<div className="text-white max-w-screen-2xl px-4 sm:px-6 mx-auto z-20 pt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 min-h-screen">
 			<div className="mb-28 sm:mt-36 flex flex-col justify-center sm:justify-start">
 				<h1 className="text-3xl sm:5xl md:text-6xl font-semibold flex flex-wrap">
 					We Create Applications With Excellent Technology.
@@ -31,7 +31,7 @@ const Landing: FC = () => {
 						<img
 							src={rightArrowIcon}
 							alt=""
-							className="h-6 w-auto"
+							className="h-6 w-auto text-white"
 						/>
 					</button>
 				</div>
