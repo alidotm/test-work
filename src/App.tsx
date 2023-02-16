@@ -22,7 +22,7 @@ function App() {
 	return (
 		<div className="App">
 			{/* loading */}
-			{loading && <Loading />}
+			{loading && <Loading loading={loading} />}
 
 			{/* Background */}
 			<Backgroud />
